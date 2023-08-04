@@ -1,0 +1,68 @@
+body{
+    margin: 100px;
+}
+.thumbnail{
+    width:100%;
+    object-fit: cover;
+    height: 200px;
+    
+
+}
+.general-body{
+    box-shadow:2px 2px 5px ;
+    width: 200px;
+    
+}
+
+.username p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0px;
+    
+}
+
+.semi-thumbnail img{
+    width:30px;
+    height: 30px;
+    border-radius:70%;
+    
+}
+
+.first-paragragh p{
+    vertical-align:bottom;
+    color:grey ;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.show-grid{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    margin-bottom: 8px;
+    border: none;
+    background-color: blue;
+    border-radius: 5px;
+    font-family:monospace;
+}
+.overall-grid-system{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 10px;
+    align-items: center;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    opacity:0.55;
+}
+.margin-divide{
+    margin-left: 3px;
+}
+
+
+
